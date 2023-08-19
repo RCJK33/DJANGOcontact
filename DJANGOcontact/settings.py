@@ -137,4 +137,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False  
 EMAIL_HOST_USER = 'rafa.11.rcj@gmail.com'  # Your Gmail email address
-EMAIL_HOST_PASSWORD = 'wzuwbhymuvjodtwe'  # Your Gmail password or an App Password
+EMAIL_HOST_PASSWORD = '*********'  # Your Gmail password or an App Password
