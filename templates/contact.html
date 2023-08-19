@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <p>Send us a message!</p>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.subject }}
+        {{ form.name }}
+        {{ form.email }}
+        {{ form.message }}
+        <button class="primary-button" type="submit">Submit</button>
+    </form>
+</body>
+</html>
